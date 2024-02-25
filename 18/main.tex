@@ -1,4 +1,4 @@
-%iffalse
+\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
@@ -57,7 +57,7 @@
 % \renewcommand{\thefigure}{\theenumi}
 % \renewcommand{\thetable}{\theenumi}
 
-
+\fi
 \section*{Exercise 5.2}
 
 \noindent \textbf{18} \hspace{2pt}The sum of the 4th and 8th terms of an AP is 24 and the sum of the 6th and 10th terms is 44. Find the first three terms of the AP.\\
@@ -98,6 +98,9 @@ Taking Z-transform of $x\brak{n}$
 \begin{align}
 X\brak{z} = & \frac{-13}{1 - z^{-1}} + \frac{ 5z^{-1}}{\brak{1 - z^{-1}}^2}\\
 X\brak{z}\implies & \frac{18z^{-1} - 13}{z^{-2} - 2z^{-1} + 1}
+\notag ROC &: \abs{z} > 1 
+
+
 \end{align}
 
 \pagebreak
@@ -111,7 +114,7 @@ Plotting $x\brak{n}$ v $n$ :
 
 From \figref{fig:10.5.2.18.1} first three terms will be
 \begin{align}
-x\brak{0,1,2} &= \brak{-13 , -8 , -3}
+\{x\brak{0},x\brak{1},x\brak{2}\} &= \{-13 , -8 , -3\}
 \end{align}
 
 
