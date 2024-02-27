@@ -18,5 +18,4 @@ plt.grid(True)
 plt.legend()
 
 plt.savefig('../figs/fig1.png')
-plt.show()
 
